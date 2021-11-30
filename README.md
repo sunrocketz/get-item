@@ -21,4 +21,7 @@ getItem(array, 1)
 
 getItem(array, -1)
 // 'd'
+
+getItem(array, -5)
+// 'w'
 ```
