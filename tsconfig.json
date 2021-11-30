@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES3"
+  },
+  "exclude": ["rollup.config.ts"]
+}
