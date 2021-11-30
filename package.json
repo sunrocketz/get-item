@@ -4,7 +4,7 @@
   "description": "Get item value of an array at postive or negative index",
   "main": "main.ts",
   "scripts": {
-    "build": "rollup -c rollup.config.js --configPlugin @rollup/plugin-typescript"
+    "build": "rollup -c rollup.config.js"
   },
   "keywords": [
     "array",
@@ -13,8 +13,8 @@
     "negative",
     "index"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "sunrocketz",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.3.0",
     "@types/node": "^16.11.11",
