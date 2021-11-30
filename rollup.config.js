@@ -4,19 +4,19 @@ const { terser } = require('rollup-plugin-terser')
 
 /** @type {RollupOptions} */
 const configs = {
-  input: 'main.ts',
+  input: 'index.ts',
   output: [
     {
       format: 'commonjs',
-      file: 'dist/main.cjs',
+      file: 'dist/index.cjs',
       exports: 'default',
     },
     {
-      format: 'es',
-      file: 'dist/main.js',
+      format: 'esm',
+      file: 'dist/index.js',
     },
   ],
-  plugins: [typescript(), terser()],
+  plugins: [typescript(), terser({ keep_fnames: true, keep_classnames: true })],
 }
 
 module.exports = configs
