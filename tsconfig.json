@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
     "strict": true,
-    "target": "ES3"
+    "target": "ES3",
+    "declaration": true,
+    "declarationDir": "."
   },
-  "exclude": ["rollup.config.ts"]
+  "exclude": ["rollup.config.js"]
 }
